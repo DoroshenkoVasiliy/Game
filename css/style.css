@@ -1,0 +1,51 @@
+body {
+  background: #333;
+}
+.container {
+  background: white;
+  display: block;
+  margin: 100px auto 50px;
+  max-width: 800px;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+}
+.logo {
+  color: aqua;
+  text-align: center;
+  font-family: "Progex";
+  font-size: 50px;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: -700px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button1 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button2 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  z-index: 1;
+  font-size: 50px;
+}

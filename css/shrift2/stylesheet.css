@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Kalperica';
+    src: url('Kalperica-Regular.eot');
+    src: local('Kalperica Regular'), local('Kalperica-Regular'),
+        url('Kalperica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Kalperica-Regular.woff2') format('woff2'),
+        url('Kalperica-Regular.woff') format('woff'),
+        url('Kalperica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
