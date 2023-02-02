@@ -16,7 +16,7 @@ body {
   font-family: "Progex";
   font-size: 50px;
 }
-.button {
+.button0 {
   display: block;
   text-decoration: none;
   font-size: 30px;
@@ -39,6 +39,50 @@ body {
   font-size: 50px;
 }
 .button2 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button3 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(70, 190, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: -700px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button4 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(228, 245, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button5 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(212, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button6 {
   display: block;
   text-decoration: none;
   font-size: 30px;
