@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="css/bloks/footer.css" />
     <link rel="stylesheet" href="./css/shrift/stylesheet.css" />
     <link rel="stylesheet" href="./css/shrift2/stylesheet.css" />
+    <script src="script.js"></script>
     <title>Game</title>
   </head>
   <body>
     <div class="logo">Super Mega Game</div>
-    <!-- Создаём экран игры с background в виде img c менюшкой выбора уровня  -->
-    <div class="container">
-      <img src="./logo.jpg" alt="" width="800px" height="800px" />
-      <a href="./Level1.html" class="button3">Level 1 </a>
-      <a href="./level.html" class="button4">Level 2 </a>
-      <a href="./level.html" class="button5">Level 3 </a>
-      <a href="./index.html" class="button6">back </a>
+
+    <canvas id="map" width="800px" height="800px">
+      <img src="./doroga.png" alt="" width="800px" height="800px" />
+    </canvas>
+    <a href="./level.html" class="button7">back </a>
+    <p><button onclick="myMove()">Щелкни меня</button></p>
+    <div id="container">
+      <img src="./gg.png" alt="" id="car1" width="100px" height="100px" />
     </div>
   </body>
 </html>
