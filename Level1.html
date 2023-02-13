@@ -4,30 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="css/bloks/header.css" />
     <link rel="stylesheet" href="css/bloks/main.css" />
     <link rel="stylesheet" href="css/bloks/footer.css" />
     <link rel="stylesheet" href="./css/shrift/stylesheet.css" />
     <link rel="stylesheet" href="./css/shrift2/stylesheet.css" />
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
     <title>Game</title>
   </head>
   <body>
     <div class="logo">Super Mega Game</div>
 
-    <canvas id="map" width="800px" height="800px">
-      <img
-        src="./doroga.png"
-        alt=""
-        class="karta"
-        width="800px"
-        height="800px"
-      />
-    </canvas>
+    <!-- <canvas id="map" width="800px" height="800px"> -->
+    <img src="./doroga.png" alt="" class="karta" width="800px" height="800px" />
+    <!-- </canvas> -->
     <a href="./level.html" class="button7">back </a>
-    <div id="container">
+
+    <div class="image-continer">
       <img src="./gg.png" alt="" id="car1" width="100px" height="100px" />
+      <!-- движение машины -->
+      <style>
+        .image-continer {
+          position: absolute;
+          left: 53%;
+          top: 87%;
+          transform: translate(-50%, -50%);
+        }
+      </style>
+      <script>
+        const image = document.querySelector(".image-continer");
+
+        document.addEventListener("keydown", (e) => {
+          const key = e.keyCode;
+          const cs = getComputedStyle(image);
+
+          const change = 10;
+          const regex = /[\d\.]*/;
+
+          const left = cs.left;
+          const top = cs.top;
+          const leftNumber = left.match(regex);
+          const topNumber = top.match(regex);
+
+          // LEFT key pressed
+          if (key === 37) {
+            image.style.left = `${parseFloat(leftNumber[0]) - change}px`;
+            if (x > 600 - obj_width) x = 600 - obj_width;
+            if (x < 600) x = 600;
+          }
+          // // TOP key pressed
+          // if (key === 38) {
+          //   image.style.top = `${parseFloat(topNumber[0]) - change}px`;
+          // }
+          // RIGHT key pressed
+          if (key === 39) {
+            image.style.left = `${parseFloat(leftNumber[0]) + change}px`;
+            if (x > 600 - obj_width) x = 600 - obj_width;
+            if (x < 600) x = 600;
+          }
+          // // DOWN key pressed
+          // if (key === 40) {
+          //   image.style.top = `${parseFloat(topNumber[0]) + change}px`;
+          // }
+        });
+      </script>
     </div>
   </body>
 </html>
