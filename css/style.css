@@ -119,12 +119,8 @@ body {
   font-size: 30px;
 }
 /* движение машинки */
-/* #car1 {
-  position: relative;
-  left: 53%;
-  top: 87%;
-  transform: translate(-50%, -50%);
-} */
+#car1 {
+}
 
 .karta {
   display: block;
