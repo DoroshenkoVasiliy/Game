@@ -1,0 +1,138 @@
+body {
+  background: rgb(20, 20, 20);
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+}
+
+.container {
+  display: block;
+  align-items: center;
+  margin: 80px auto 50px;
+  margin-left: 400px;
+  max-width: 800px;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+}
+.logo {
+  color: rgb(0, 119, 255);
+  text-align: center;
+  font-family: "Progex";
+  font-size: 50px;
+}
+.button0 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: -400px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button1 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button2 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button3 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(70, 190, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: -400px;
+  margin-right: 300px;
+  z-index: 3;
+  font-size: 50px;
+}
+.button4 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(228, 245, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button5 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(212, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+.button6 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Progex";
+  margin-top: 15px;
+  margin-right: 300px;
+  z-index: 1;
+  font-size: 50px;
+}
+
+.button7 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 89, 255);
+  font-family: "Progex";
+  margin-top: -850px;
+  margin-left: 1230px;
+  z-index: 3;
+  font-size: 30px;
+}
+.button8 {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 89, 255);
+
+  font-family: "Progex";
+  margin-top: -450px;
+  margin-left: 500px;
+  z-index: 3;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

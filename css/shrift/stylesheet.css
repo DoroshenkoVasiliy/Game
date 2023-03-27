@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Progex";
+  src: url("ProgexRegular.eot");
+  src: local("Progex"), local("ProgexRegular"),
+    url("ProgexRegular.eot?#iefix") format("embedded-opentype"),
+    url("ProgexRegular.woff2") format("woff2"),
+    url("ProgexRegular.woff") format("woff"),
+    url("ProgexRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
